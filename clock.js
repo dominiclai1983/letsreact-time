@@ -6,7 +6,7 @@ var Clock = function Clock(props) {
       'h2',
       null,
       'The time now is ',
-      props.date.toLocaleTimeString('en-US'),
+      props.date.toLocaleTimeString('en-US', { hour12: false }),
       '.'
     )
   );

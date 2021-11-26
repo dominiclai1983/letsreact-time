@@ -2,7 +2,7 @@ class Clock extends React.Component{
 
   constructor(props){
     super(props);
-    this.state = { 
+    this.state = { //intial at constructor 
       date: new Date(),
       location: 'New York',
     }; 

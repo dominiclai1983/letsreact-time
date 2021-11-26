@@ -14,7 +14,7 @@ var Clock = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Clock.__proto__ || Object.getPrototypeOf(Clock)).call(this, props));
 
-    _this.state = {
+    _this.state = { //intial at constructor 
       date: new Date(),
       location: 'New York'
     };
